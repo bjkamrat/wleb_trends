@@ -1,0 +1,8 @@
+"station","abbv","season","full_conc_srp","recent_conc_srp","full_flux_srp","recent_flux_srp","full_conc_tp","recent_conc_tp","full_flux_tp","recent_flux_tp"
+"Blanchard","BLA","annual",9.2,3.1,2.4,1.8,4.5,2.7,1.4,2.3
+"Honey","HON","annual",-0.7,-0.8,0.1,-0.5,1,1.4,1.3,1.4
+"Maumee","MAU","annual",0,-0.8,-0.4,-0.9,0.5,1.3,0.8,1.9
+"Portage","POR","annual",9.1,7.6,1.1,1.3,4.4,4.1,2,2.3
+"Raisin","RAI","annual",4.9,1.6,1.5,-1.4,2.8,1.4,3.6,2.1
+"Sandusky","SAN","annual",2.4,3.3,1.6,1.6,1.7,4,2.3,3.9
+"Tiffin","TIF","annual",-0.5,-2.5,-0.5,-2.4,0.5,-0.7,1.5,0.6

@@ -1,0 +1,13 @@
+span_stat,span_end,flux_change,flux_slope,flux_per_change,flux_per_slope,station,scenario
+2008,2015,4.1,0.59,3,0.43,Blanchard,pre
+2008,2022,27,1.9,20,1.4,Blanchard,all
+2015,2022,23,3.3,16,2.3,Blanchard,post
+2008,2015,12,1.8,15,2.2,Tiffin,pre
+2008,2022,17,1.2,21,1.5,Tiffin,all
+2015,2022,4.2,0.6,4.5,0.64,Tiffin,post
+2008,2015,-55,-7.8,-2.3,-0.32,Maumee,pre
+2008,2022,254,18,11,0.75,Maumee,all
+2015,2022,308,44,13,1.9,Maumee,post
+2008,2015,34,4.9,31,4.5,Raisin,pre
+2008,2022,55,3.9,50,3.6,Raisin,all
+2015,2022,21,3,14,2.1,Raisin,post

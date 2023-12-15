@@ -1,0 +1,58 @@
+Chesapeake Bay Nontidal Network 1985 – 2018: Daily High-Flow and Low-Flow Concentration and Load Estimates (ver 1.1, November 2021)
+
+All files associated with the verion 1.0 release of the "Chesapeake Bay Nontidal Network 1985 – 2018: Daily High-Flow and Low-Flow Concentration and Load Estimates (ver 1.1, November 2021)" are archived in the USGS Virginia-West Virginia Water Science Center and can be obtained by contacting:
+James Webber
+U.S. Geological Survey
+Virginia and West Virginia Water Science Center
+1730 East Parham Road 
+Richmond, VA 23228
+Office: (804) 261-2621
+jwebber@usgs.gov
+
+Revision Notes
+November 2021
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Changes to the Landing Page
+
+Title - Added "ver1.1" to the title.
+Summary - Added the following to the end of the summary:
+	"First posted: September 2020 (available from author)
+	Revised: November 2021 (version 1.1)"
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Changes to Metadata File: NTN_2018_FlowSep_Daily_ver.1.1.xml
+
+Title - Added "ver.1.1" to the title.
+Abstract - Added the following to the end of the abstract:
+	"First posted: September 2020 (available from author)
+	Revised: November 2021 (version 1.1)"
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Changes to the Readme File: WRTDS_FN_2Q_Readme_ver.1.1.txt
+
+Title - Added "ver.1.1" to the title.
+Body- Added the following text to the body of the document:
+	"This model data release was updated in November 2021 to resolve an error in the original R script (posted September 2020, available from author). In the original script, the main Estby2Flows function did not partition the high flow component correctly when users selected a cutoff value that differs from the default of 0.5.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Changes to the R Script: WRTDS_FN_2Q_ver.1.1.r
+
+Title - Added "ver.1.1" to the title.
+
+Line 7 - Added the DOI for the associated manuscript:
+		# Science of the Total Environment 755: 143562, doi: 10.1016/j.scitotenv.2020.143562.
+
+Line 12 - Updated date script was written:
+Original:	# Date of version: July 29, 2020. 
+Revised:	# Date of version: November 8, 2021.
+
+Line 52 - Resolved code error:
+Original:	allLogQsByDayOfYear1[[i]] <- Q[order(Q,decreasing=T)][1:ceiling(cutoff*length(Q))]  # values for high flows
+Revised:	allLogQsByDayOfYear1[[i]] <- Q[order(Q,decreasing=T)][1:ceiling((1-cutoff)*length(Q))]  # values for high flows
+
+Lines 58 and 59 - Added new code to clarify how high and low flow classifications are defined:
+		print(paste("day", i, "has", Nq$HighQ[i], "high flows")) # number of flows for day i
+		print(paste("day", i, "has", Nq$LowQ[i], "low flows"))   # number of flows for day i
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

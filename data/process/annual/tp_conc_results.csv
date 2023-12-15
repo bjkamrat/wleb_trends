@@ -1,0 +1,13 @@
+span_start,span_end,conc_change,conc_slope,per_change,per_slope,station,scenario
+2008,2015,0.087,0.012,37,5.2,Blanchard,pre
+2008,2022,0.15,0.011,63,4.5,Blanchard,all
+2015,2022,0.062,0.0089,19,2.7,Blanchard,post
+2008,2015,0.018,0.0026,12,1.7,Tiffin,pre
+2008,2022,0.01,0.00071,6.3,0.45,Tiffin,all
+2015,2022,-0.0083,-0.0012,-4.7,-0.67,Tiffin,post
+2008,2015,-0.0053,-0.00076,-2.3,-0.32,Maumee,pre
+2008,2022,0.015,0.0011,6.5,0.46,Maumee,all
+2015,2022,0.02,0.0029,8.9,1.3,Maumee,post
+2008,2015,0.022,0.0031,27,3.8,Raisin,pre
+2008,2022,0.032,0.0023,39,2.8,Raisin,all
+2015,2022,0.01,0.0015,10,1.4,Raisin,post

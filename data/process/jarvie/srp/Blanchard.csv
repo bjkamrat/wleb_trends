@@ -1,0 +1,8 @@
+model,(Intercept) coef,(Intercept) stderr,DecYear coef,DecYear stderr,r.squared,F.value,df.res
+Blanchard,-965.6327628,3.056557918,0.480967939,0.001519448,0.972531849,100198.4133,2830
+Blanchard,-1055.160665,2.080224804,0.523445296,0.001030261,0.989857385,258135.8616,2645
+Blanchard,-995.4029506,1.922772422,0.493814429,0.00095228,0.990259603,268904.496,2645
+,,,,,,,
+,,,,,,,
+pre,post,measured increase,mod,increase due to delivery,increase due to runoff,increase in SRP delivery,
+0.480967939,0.523445296,0.042477357,0.493814429,0.029630867,0.01284649,69.75685225,
